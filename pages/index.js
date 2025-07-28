@@ -6,8 +6,6 @@ import Programs from '../components/Programs';
 import Testimonial from '../components/Testimonial';
 import CTA from '../components/CTA';
 import Footer from '../components/Footer';
-import '../styles/globals.css';
-
 export default function Home() {
   return (
     <>
