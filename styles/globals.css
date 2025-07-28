@@ -1,0 +1,17 @@
+:root {
+  --color-primary: #2a2e38;
+  --color-accent: #fea275;
+  --color-light-bg: #e8e8e6;
+  --color-white: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--color-white);
+  color: var(--color-primary);
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
