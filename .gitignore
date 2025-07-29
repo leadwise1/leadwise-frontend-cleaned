@@ -1,4 +1,28 @@
+# Node.js dependencies
 node_modules
-.next
-.env.local
 
+# Next.js build output
+.next
+out
+
+# Cloudflare build artifacts
+.vercel
+.vercel/output
+.vercel/output/static
+
+# Local environment variables
+.env*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# IDE junk
+.vscode
+.idea
